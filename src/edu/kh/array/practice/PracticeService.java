@@ -31,4 +31,19 @@ public class PracticeService {
 		} 
 		System.out.print(sum);
 	}
+	
+	public void practice8() {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("정수 : ");
+		int input = sc.nextInt();
+		
+		if(input % 2 == 0 || input < 3) {
+			System.out.println("다시 입력하세요.");
+			System.out.println("정수 : ");
+			int input = sc.nextInt();
+		} else {
+			
+		}
+	}
 }
